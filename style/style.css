@@ -166,37 +166,6 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0 auto;
 }
-
-.button__container {
-    padding: 15px 30px;
-    background-color: transparent;
-    border-radius: 10px;
-    margin: 40px;
-    
-    display: flex;
-    justify-content: center;
-}
-
-.button {
-    background-color: var(--blue);
-    padding: 15px 30px;
-    text-decoration: none;
-    color: var(--white--blue);
-    font-size: 1.3rem;
-    border-radius: 10px;
-    border: 2px solid var(--white--blue);
-
-    box-shadow: inset 10px -10px 30px var(--black--blue),
-                5px 7px 10px #68b2f899;
-
-    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.button:active {
-    box-shadow: inset 10px -10px 40px var(--black),
-                5px 7px 10px #ccbbff88;
-}
-
 @media only screen and (min-width: 600px) {
     
     :root {
@@ -233,11 +202,6 @@ body {
         margin: 0;
         min-height: auto;
         font-size: .8rem;
-    }
-
-    .button:hover {
-        box-shadow: inset 10px -10px 40px var(--black),
-                5px 7px 10px #ccbbff88;
     }
 }
 
